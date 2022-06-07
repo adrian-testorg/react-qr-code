@@ -2,7 +2,7 @@ import QRCode from "react-qr-code";
 import { withLDConsumer } from "launchdarkly-react-client-sdk";
 
 //Change QRURL to the URL where you'll be hosting this app
-const QRURL = "https://adrian-testorg.github.io/React-QR-Flag/";
+const QRURL = "https://adrian-testorg.github.io/react-qr-code/";
 
 const qrCodeHome = ({ flags, ldClient /*, ...otherProps */ }) => {
   let showFeature = ldClient.variation("reactQRCode");
