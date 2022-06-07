@@ -1,5 +1,7 @@
-on: push
+on: 
+  push:
   workflow_dispatch:
+
 name: CodeReferences
 jobs:
   launchDarklyCodeReferences:
